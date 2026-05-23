@@ -2,9 +2,9 @@
 > **관절 토크 데이터 기반 능동형 곡면 검사 및 무지연 3D 데이터 스트리밍 아키텍처 수립 전문가**
 
 <div align="left">
-  <a href="mailto:your_email@example.com"><img src="https://img.shields.io/badge/Email-your__email@example.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="tel:010-XXXX-XXXX"><img src="https://img.shields.io/badge/Phone-010--XXXX--XXXX-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
-  <a href="https://github.com/your_github_id" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:yjhyun0613@naver.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@naver.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="tel:010-6211-7382"><img src="https://img.shields.io/badge/Phone-010--6211--7382-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
+  <a href="https://github.com/yjhyun0613" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-for-the-badge&logo=github&logoColor=white"/></a>
 </div>
 
 ---
