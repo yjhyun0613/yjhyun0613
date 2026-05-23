@@ -20,7 +20,7 @@
 
 ---
 
-📬 **Contact:** your_email@example.com | 📞 010-XXXX-XXXX
+📬 **Contact:** yjhyun0613@gmail.com | 📞 010-6211-7382
 
 <!--
 **yjhyun0613/yjhyun0613** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
