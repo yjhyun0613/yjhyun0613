@@ -1,8 +1,8 @@
 # 윤재현
 
 <div align="left">
-  <a href="mailto:yjhyun0613@example.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@example.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="tel:010-XXXX-XXXX"><img src="https://img.shields.io/badge/Phone-010--XXXX--XXXX-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
+  <a href="mailto:yjhyun0613@gmail.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@gmail.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="tel:010-6211-7382"><img src="https://img.shields.io/badge/Phone-010--6211--7382-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
   <a href="https://github.com/yjhyun0613" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-for-the-badge&logo=github&logoColor=white"/></a>
 </div>
 
