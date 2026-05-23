@@ -42,16 +42,7 @@
     <img src="https://img.shields.io/badge/Screw__Fastening__Project-Link_Pending_(Slot_Reserved)-64748b?style=for-the-badge&logo=codeforces&logoColor=white"/>
   </a>
 
----
 
-## 📊 정량적 주요 개선 성과 요약 (Key Performance Metrics)
-| 평가 및 공정 개선 지표 | 개선 전 아키텍처 (Before) | 개선 및 알고리즘 도입 후 (After) | 엔지니어링 핵심 요약 |
-| :--- | :--- | :--- | :--- |
-| **곡면 스캔 검사 불량 오판정율** | 40% 초과 (접촉각 뒤틀림 노이즈) | **5% 미만 극복** | 정밀 원주구속 제어 및 노이즈 논리 필터 융합 성과 |
-| **기계적 특이점 탈조 비상 정지율** | 빈번 발생 (손목 관절 누적 회전 꼬임) | **0.0% (Zero Run)** | 위도 레이어 분할 및 CW/CCW 교차 제어 모션 설계 |
-| **3D 디지털 트윈 GUI 연산 속도** | 데이터 누적 시 웹 브라우저 다운 | **무지연 실시간 스트리밍** | `extendTraces` 메모리 최적화 및 이중 레이어 렌더링 |
-
----
 <div align="center">
   <p font-size="11px">본 깃허브 프로필 리드미의 모든 프로젝트 기술 명세는 Doosan M0609 협동로봇 및 ROS 2 생태계 기반 검증 코드를 기반으로 무결하게 작성되었습니다.</p>
 </div>
