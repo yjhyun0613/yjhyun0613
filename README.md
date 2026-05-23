@@ -1,5 +1,4 @@
-# 👋 안녕하세요, 로봇 제어 & 디지털 트윈 소프트웨어 엔지니어 윤재현입니다.
-> **관절 토크 데이터 기반 능동형 곡면 검사 및 무지연 3D 데이터 스트리밍 아키텍처 수립 전문가**
+# 윤재현
 
 <div align="left">
   <a href="mailto:yjhyun0613@example.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@example.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
