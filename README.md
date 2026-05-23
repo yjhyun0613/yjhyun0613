@@ -1,62 +1,47 @@
-# 🚀 윤재현 | 로봇 제어 & 디지털 트윈 소프트웨어 엔지니어
+# 👋 안녕하세요, 로봇 제어 & 디지털 트윈 소프트웨어 엔지니어 윤재현입니다.
 > **관절 토크 데이터 기반 능동형 곡면 검사 및 무지연 3D 데이터 스트리밍 아키텍처 수립 전문가**
 
 <div align="left">
-  <a href="mailto:yjhyun0613@gmail.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@gmail.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="tel:010-6211-7382"><img src="https://img.shields.io/badge/Phone-010--6211--7382-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
+  <a href="mailto:yjhyun0613@example.com"><img src="https://img.shields.io/badge/Email-yjhyun0613@example.com-4f46e5?style=flat-for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="tel:010-XXXX-XXXX"><img src="https://img.shields.io/badge/Phone-010--XXXX--XXXX-0f172a?style=flat-for-the-badge&logo=phone&logoColor=white"/></a>
   <a href="https://github.com/yjhyun0613" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-for-the-badge&logo=github&logoColor=white"/></a>
 </div>
 
 ---
 
 ## 💡 About Me & Core Strength
-- 필드 공정에서 발생하는 하드웨어 기계 특이점 및 가압 진입 마찰 노이즈를 **기하학적 제어 알고리즘과 소프트웨어 논리 레이어의 융합**으로 타파하는 엔지니어입니다.
-- 두산로보틱스 M0609 및 ROS 2 Humble 인프라 상에서 **정밀 원주구속(Orientation Constraint) 궤적 제어**, **실시간 외력 변량 분석 불량 판정**, **디지털 트윈 무지연 메모리 최적화** 전 과정을 하드캐리하며 상용 자동화 솔루션 수준의 데이터 신뢰성을 무결하게 입증해 냈습니다.
+- 필드 공정에서 발생하는 하드웨어 기계 특이점 및 가압 진입 마찰 노이즈를 **기하학적 제어 알고리즘과 소프트웨어 논리 레이어의 융합**으로 통대하는 엔지니어입니다.
+- 두산로보틱스 M0609 및 ROS 2 Humble 인프라 상에서 **정밀 원주구속(Orientation Constraint) 궤적 제어**, **실시간 외력 변량 분석 불량 판정**, **디지털 트윈 무지연 메모리 최적화** 전 과정을 직접 전담하여 구현했습니다.
 
 ---
 
 ## 🛠️ Technical Skills
 | 분류 | 상세 스택 및 핵심 기술 역량 |
 | :--- | :--- |
-| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, ROS 2 Humble Extended, Forward Kinematics ($4 \times 4$ 동차변환행렬 연산), 유연 순응 제어(Compliance Control), 원주구속 제어 |
-| **Vision & Space** | YOLOv8 Inference, Intel RealSense D435i, OpenCV, 다시점 3D 포인트 클라우드 병합(Point Cloud Stitching), 3D 공간 벡터 선형대수(Vector Cross Product) |
-| **Data & Twin** | Python, C++, Fast DDS Network Middleware, Firebase Realtime DB / Cloud Storage, Plotly.js 3D Telemetry Web Visualizer (Zero-Latency Streaming) |
-| **AI Architecture** | LLM Agent Node Co-working Engine, 인간-로봇 협업(HRI) 시나리오 설계, 상대적 단차 검사 알고리즘 자체 설계 |
+| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, ROS 2 Humble, 순운동학(Forward Kinematics), 유연 순응 제어(Compliance Control), 원주구속 제어 |
+| **Vision & Space** | YOLOv8 Inference, Intel RealSense D435i, OpenCV, 다시점 3D 포인트 클라우드 병합(Point Cloud Stitching), 벡터 선형대수(Vector Cross Product) |
+| **Data & Twin** | Python, C++, Fast DDS Network Middleware, Firebase Realtime DB, Plotly.js 3D Telemetry Web Visualizer (Zero-Latency Streaming) |
 
 ---
 
-## 💼 주요 프로젝트 수행 이력 (Project Deep Dive)
+## 💼 Core Projects (Click Badge to View Technical Report)
+
+인사담당자 및 기술면접관분들을 위해 프로젝트별 상세 트러블슈팅, 현장 엔지니어링 이슈 해결 과정 및 구동 미디어가 포함된 **독립 대시보드 포트폴리오**를 연동해 두었습니다. 아래 배너를 클릭하시면 해당 포트폴리오 웹사이트로 즉시 이동합니다.
 
 ### 📌 1. 토크 센서와 3D Point Cloud를 활용한 능동형 표면 탐색 로봇
-- **소속 및 인프라:** TEAM 더듬이 | Doosan M0609 & ROS 2 Humble
-- **프로젝트 핵심 개요:** 빛 반사/굴절로 오탐률이 치솟는 투명 사출물 및 구형 돔 표면 결함 한계를 타파하고자, 비전 센서에 의존하지 않고 로봇 고유의 조인트 내장 토크 센서와 컴플라이언스(유연 제어)를 결합하여 곡면을 물리 촉진 스캔하는 독자적 능동 탐색 공정 구현.
-- **내가 전담한 핵심 역할:** 로봇 제어부(원주구속 최적화), 데이터 분석부(토크 이상 감지 알고리즘), 시각화부(디지털 트윈 데이터 스트리밍 파이프라인)
+- **소속 인프라:** TEAM 더듬이 | Doosan M0609 & ROS 2 Humble
+- **전담 담당 업무:** 로봇 제어부(정밀 원주 구속제어), 데이터 분석부(불량 판단 방법), 시각화부(사용자용 실시간 디지털 트윈 렌더링 최적화)
+- **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Surface__Inspection__Project-Click_to_View_Dashboard-4f46e5?style=for-the-badge&logo=robot&logoColor=white)](https://yjhyun0613.github.io/cobot1/)
 
-#### 🛠️ 현장 엔지니어링 문제 해결 (Troubleshooting Deep Dive)
-
-> **상황 01: 원주구속 제어 시 손목 관절(J5, J6) 특이점 진입 및 제어기 탈조 차단**
-> - **발생한 문제점:** 기본 원호 보간(`ori=0`) 구동 시 툴 접촉각이 틀어지며 오판율이 40%를 초과함. 방향을 강제 동기화하는 원주구속(`ori=2`)을 삽입하자 360도 전주 스캔 중 특정 위도 구간에서 J5/J6축 누적 회전 폭주로 기계적 특이점(Singularity)에 진입, 제어기 백엔드가 하드웨어 셧다운을 위해 **알람 2007(과토크 및 제어 경고)**을 발생시키며 로봇이 비상 정지되는 크래시 유발.
-> - **수학적/알고리즘적 해결 방안:** 일괄 연속 비행 궤적을 폐기하고, 돔 구조물 높이별 **5개 층의 위도 레이어(Layer) 분할** 수립. 관절 꼬임 오프셋을 상쇄시키기 위해 **홀수 레이어는 시계 방향(CW), 짝수 레이어는 반시계 방향(CCW)으로 교차 주행하는 '회전 차수 상쇄 모션 시퀀스'** 자체 설계. 층간 이동 시 왜곡 데이터를 만드는 들림 연산을 배제하고 블렌딩 반경(`r=5.0`) 연속 경로 제어로 직결 전환.
-> - **최종 개선 결과:** 전 구간 스캔 중 툴과 표면의 90도(&plusmn;0.8&deg; 이내) 수직 평형 주행 달성 및 **공정 구동 중 비상 정지율 0%** 달성.
-
-> **상황 02: 최초 하강 진입 구간 접촉 마찰력 충격 노이즈 필터링**
-> - **발생한 문제점:** 로봇이 표면으로 하강하여 접촉하는 순간 가속 관성 및 유연 제어 활성화 댐핑력에 의해 로봇이 순간 주저앉음. 모터 초기 정지 마찰력과 겹쳐 스캔 극초반부에 거대한 외력 토크 스파이크가 발생하여 정상 표면을 불량(NG)으로 오판하는 현상 확인. (동시에 `numpy.bool_` 자료형의 JSON 직렬화 불가로 파이어베이스 실시간 통신 단절 크래시 동반)
-> - **수학적/알고리즘적 해결 방안:** 모터가 타겟 원호 주행 속도 프로파일에 완전히 수렴하기 전 초반부 노이즈를 소프트웨어단에서 원천 소거하기 위해 마스터 노드 내부에 **`IGNORE_START_FRAMES = 20` (20Hz 기준 약 2초) 시간 구간 필터링 로직** 자체 구현. 2초간 데이터 분석 수집 레이어를 논리 차단하고 판정 플래그 변수는 원시 타입 `bool()`로 명시적 형변환 처리.
-> - **최종 개선 결과:** 과도상태 충격 에러가 완벽히 소거되어 공정 내 **결함 판정 신뢰도를 95% 이상으로 상시 완벽 방어**.
-
-> **상황 03: 대용량 점군 데이터 실시간 동기화 웹 렌더링 부하 제어**
-> - **발생한 문제점:** 밀리초 단위 적층 점군 데이터 표출 시, 기존의 전체 화면 재드로잉(Re-render) 방식은 대용량 누적 시 CPU/GPU 오버헤드로 브라우저가 완전히 멈추거나 튕기는 프레임 다운(FPS 드롭) 유발. 또한 정상 기준선(Baseline) 대비 가동 경로 이탈 편차를 조작자가 시각적으로 즉각 대조 판독할 수 없는 아키텍처적 부재 존재.
-> - **소프트웨어적 해결 방안:** 웹 그래픽스 인터페이스를 Plotly.js 엔진으로 전면 개체 후, 캔버스 갱신 연산 비효율을 제로화하기 위해 **전체 화면을 다시 그리지 않고 스트리밍 데이터 점만 캔버스 끝단에 실시간 결합하는 `extendTraces` 메모리 파이프라인** 독자 설계. 나아가 화면 내 레이어를 분리 제어하는 이중 트레이스(Multi-trace)를 설계해 고정 기준 경로(Trace 0) 위에 누적 주행선(Trace 1)이 병합 적층되도록 고도화.
-> - **최종 개선 결과:** 수만 개의 데이터 점 적층 중에도 프레임 다운이 전혀 없는 **무지연(Zero-latency) 디지털 트윈 GUI 및 편차 즉각 판독 인터페이스 무결성 확보**.
-
----
+<br>
 
 ### 📌 2. AI 컴퓨터 비전 및 3D 공간 맵핑 기반 자동 정비 시스템
-- **소속 및 인프라:** 두산 M0609 & Intel RealSense D435i & 웹캠
-- **프로젝트 핵심 개요:** 항공/선박 엔진 동체의 수많은 고정 볼트 정비 누락 및 조임 상태 결함을 제로화하기 위해, YOLOv8 객체 인식 모델과 3D 기하 법선 벡터 추정, 착탈형 그리퍼 연동 상태 머신 기반 LLM 상황 인지 제어 노드를 결합한 인간-로봇 협업(HRI) 공정 구축.
-- **내가 전담한 핵심 기술적 기여:**
-  * **Look-at 수직 보간 정렬 제어:** RealSense Depth 정보가 캡처한 볼트 박스 주변 공간 3개 좌표를 기하학적으로 파싱한 후, **벡터 외적(Vector Cross Product) 연산을 통해 부품 평면의 법선 벡터(Normal Vector)를 정밀 산출**. 로봇 TCP가 강판과 항상 정면으로 수직 수평을 지키는 방향 회전 제어기 구현.
-  * **다시점 5면 3D 포인트 클라우드 병합(Stitching):** 단일 시야각의 물리 사각지대 해소를 위해 물체 중심 앞, 양옆, 위, 아래 5개 면 순차 기동 스캔 시퀀스 설계. 로컬 렌즈 기준 점군 좌표를 로봇 관절 상태 기반 TF 변환 행렬과 실시간 곱하여 글로벌 기준 좌표계(`base_link`) 중심의 한 장의 거대한 3D 복합 스키매틱 맵으로 정렬 누적하는 파이프라인 수립.
+- **소속 인프라:** Doosan M0609 & Intel RealSense D435i & YOLOv8
+- **전담 담당 업무:** 3D 벡터 선형대수 기반 Look-at 수직 보간 정렬 제어, 다시점 5면 3D 포인트 클라우드 병합(Stitching) 알고리즘 파이프라인 수립
+- **상세 포트폴리오 웹사이트:**
+  <a href="https://추후_여기에_나사체결_포트폴리오_웹주소를_넣으세요" target="_blank">
+    <img src="https://img.shields.io/badge/Screw__Fastening__Project-Link_Pending_(Slot_Reserved)-64748b?style=for-the-badge&logo=codeforces&logoColor=white"/>
+  </a>
 
 ---
 
