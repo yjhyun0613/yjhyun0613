@@ -6,13 +6,13 @@
   <a href="https://github.com/yjhyun0613" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-for-the-badge&logo=github&logoColor=white"/></a>
 </div>
 
----
+<!--
 
 ## 💡 About Me & Core Strength
 - 필드 공정에서 발생하는 하드웨어 기계 특이점 및 가압 진입 마찰 노이즈를 **기하학적 제어 알고리즘과 소프트웨어 논리 레이어의 융합**으로 통대하는 엔지니어입니다.
 - 두산로보틱스 M0609 및 ROS 2 Humble 인프라 상에서 **정밀 원주구속(Orientation Constraint) 궤적 제어**, **실시간 외력 변량 분석 불량 판정**, **디지털 트윈 무지연 메모리 최적화** 전 과정을 직접 전담하여 구현했습니다.
 
----
+--->
 
 ## 🛠️ Technical Skills
 | 분류 | 상세 스택 및 핵심 기술 역량 |
