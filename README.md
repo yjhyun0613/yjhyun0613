@@ -35,7 +35,7 @@
 <br>
 
 ### 📌 2. AI 컴퓨터 비전 및 3D 공간 맵핑 기반 자동 정비 시스템
-- **소속 인프라:** Doosan M0609 & Intel RealSense D435i & YOLOv8
+- **소속 인프라:** TEAM Joingo | Doosan M0609 & Intel RealSense D435i & YOLOv8
 - **전담 담당 업무:** 3D 벡터 선형대수 기반 Look-at 수직 보간 정렬 제어, 다시점 5면 3D 포인트 클라우드 병합(Stitching) 알고리즘 파이프라인 수립
 - **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Screw__Fastening__Project-Link_Pending_(Slot_Reserved)-64748b?style=for-the-badge&logo=codeforces&logoColor=white)](https://yjhyun0613.github.io/cobot2_ws/)
 
