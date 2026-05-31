@@ -1,13 +1,3 @@
-Viewed index2.html:1-49
-Listed directory %EC%8B%A4%EC%8A%B5
-Searched for "yjhyun0613@gmail.com"
-Searched for "Oraibot"
-Viewed README.md
-Viewed index.html:781-1580
-
-기존에 제공해주신 프로필 마크다운 양식에 맞춰 세 번째 프로젝트인 **오라이봇(Oraibot) 프로젝트**를 추가하고, 기술 스택 표에도 관련 하드웨어와 프레임워크(TurtleBot 4, Nav2)를 반영하여 완성한 마크다운 코드입니다.
-
-```markdown
 # 윤재현
 
 <div align="left">
@@ -60,4 +50,4 @@ Viewed index.html:781-1580
 <div align="center">
   <p font-size="11px">본 깃허브 프로필 리드미의 모든 프로젝트 기술 명세는 Doosan M0609 협동로봇 및 ROS 2 생태계 기반 검증 코드를 기반으로 무결하게 작성되었습니다.</p>
 </div>
-```
+
