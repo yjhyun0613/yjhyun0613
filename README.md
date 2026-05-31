@@ -1,3 +1,13 @@
+Viewed index2.html:1-49
+Listed directory %EC%8B%A4%EC%8A%B5
+Searched for "yjhyun0613@gmail.com"
+Searched for "Oraibot"
+Viewed README.md
+Viewed index.html:781-1580
+
+기존에 제공해주신 프로필 마크다운 양식에 맞춰 세 번째 프로젝트인 **오라이봇(Oraibot) 프로젝트**를 추가하고, 기술 스택 표에도 관련 하드웨어와 프레임워크(TurtleBot 4, Nav2)를 반영하여 완성한 마크다운 코드입니다.
+
+```markdown
 # 윤재현
 
 <div align="left">
@@ -17,8 +27,8 @@
 ## 🛠️ Technical Skills
 | 분류 | 상세 스택 및 핵심 기술 역량 |
 | :--- | :--- |
-| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, ROS 2 Humble, 순운동학(Forward Kinematics), 유연 순응 제어(Compliance Control), 원주구속 제어 |
-| **Vision & Space** | YOLOv8 Inference, Intel RealSense D435i, OpenCV, 다시점 3D 포인트 클라우드 병합(Point Cloud Stitching), 벡터 선형대수(Vector Cross Product) |
+| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, TurtleBot 4, ROS 2 Humble, Nav2, 순운동학(Forward Kinematics), 유연 순응 제어(Compliance Control), 원주구속 제어 |
+| **Vision & Space** | YOLOv8 Inference, Intel RealSense D435i, OpenCV, 다시점 3D 포인트 Cloud 병합(Point Cloud Stitching), 벡터 선형대수(Vector Cross Product) |
 | **Data & Twin** | Python, C++, Fast DDS Network Middleware, Firebase Realtime DB, Plotly.js 3D Telemetry Web Visualizer (Zero-Latency Streaming) |
 
 ---
@@ -39,7 +49,15 @@
 - **전담 담당 업무:** 3D 벡터 선형대수 기반 Look-at 수직 보간 정렬 제어, 다시점 5면 3D 포인트 클라우드 병합(Stitching) 알고리즘 파이프라인 수립
 - **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Screw__Fastening__Project-Link_Pending_(Slot_Reserved)-64748b?style=for-the-badge&logo=codeforces&logoColor=white)](https://yjhyun0613.github.io/cobot2_ws/)
 
+<br>
+
+### 📌 3. AI 비전 및 LiDAR 센서 융합 기반 AMR 자율주행 안전 시스템
+- **소속 인프라:** TEAM 오라이봇 | TurtleBot 4 & ROS 2 Humble & YOLOv8
+- **전담 담당 업무:** YOLOv8 GPU 가속 실시간 객체(사람) 감시 노드 및 RGB-D 뎁스 매핑 결합, LiDAR TF(좌표계) 변환 조향 제어, Nav2 Action 강제 취소(Cancel) 및 캐싱된 목적지 재배포(Resume) 관제 통신부 설계
+- **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Oraibot__AMR__Project-Click_to_View_Dashboard-0984e3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yjhyun0613/Oraibot)
+
 
 <div align="center">
   <p font-size="11px">본 깃허브 프로필 리드미의 모든 프로젝트 기술 명세는 Doosan M0609 협동로봇 및 ROS 2 생태계 기반 검증 코드를 기반으로 무결하게 작성되었습니다.</p>
 </div>
+```
