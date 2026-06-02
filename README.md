@@ -44,7 +44,7 @@
 ### 📌 3. AI 비전 및 LiDAR 센서 융합 기반 AMR 자율주행 안전 시스템
 - **소속 인프라:** TEAM 오라이봇 | TurtleBot 4 & ROS 2 Humble & YOLOv8
 - **전담 담당 업무:** YOLOv8 GPU 가속 실시간 객체(사람) 감시 노드 및 RGB-D 뎁스 매핑 결합, LiDAR TF(좌표계) 변환 조향 제어, Nav2 Action 강제 취소(Cancel) 및 캐싱된 목적지 재배포(Resume) 관제 통신부 설계
-- **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Oraibot__AMR__Project-Click_to_View_Dashboard-0984e3?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/yjhyun0613/Oraibot](https://yjhyun0613.github.io/Oraibot/))
+- **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Oraibot__AMR__Project-Click_to_View_Dashboard-0984e3?style=for-the-badge&logo=github&logoColor=white)](https://yjhyun0613.github.io/Oraibot/)
 
 
 <div align="center">
