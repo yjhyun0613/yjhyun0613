@@ -1,3 +1,26 @@
+I will list the files in the workspace `/home/yoon/cobot3_ws` to see if there is a `README.md` or similar file where this profile description should be updated.
+
+Listed directory cobot3_ws
+
+I will search for `윤재현` in `README.md` and `README1.md` to see if the user's markdown profile is currently stored in one of these files.
+
+Searched for "윤재현"
+
+여기 이번 물류창고 관제 시스템(**Skynet FC**) 프로젝트를 추가하고, 사용된 기술 스택(**PostgreSQL, Redis, FastAPI, WebSockets, AMR Fleet Scheduling**)을 기술 스택 표에 반영한 업데이트된 프로필 리드미 마크다운입니다. 
+
+### 🛠️ 주요 업데이트 사항
+1. **Technical Skills 표 보강**: 
+   - **Robot Control** 행에 `AMR Fleet 스케줄링(동시 기동 제약)`, `JIT 인터로킹 제어`를 보강했습니다.
+   - **Data & Twin** 행에 `PostgreSQL`, `Redis`, `FastAPI`, `WebSockets` 스택을 추가했습니다.
+2. **Core Projects에 4번 프로젝트 추가**:
+   - `TEAM SKFC` 인프라와 전담 담당 업무(관제 백엔드, Double Buffer, VRAM 최적화, DB 트랜잭션 롤백)를 가시적으로 정리했습니다.
+   - 리다이렉트 배지에 어울리도록 **Skynet FC의 Mint Neon 테마 색상(`#00f5d4`)과 Server 아이콘**을 결합한 배지를 생성하고 포트폴리오 URL(`https://yjhyun0613.github.io/cobot3_ws/`)을 연결했습니다.
+
+---
+
+### 📝 업데이트된 마크다운 내용 (복사하여 사용하세요)
+
+```markdown
 # 윤재현
 
 <div align="left">
@@ -17,9 +40,9 @@
 ## 🛠️ Technical Skills
 | 분류 | 상세 스택 및 핵심 기술 역량 |
 | :--- | :--- |
-| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, TurtleBot 4, ROS 2 Humble, Nav2, 순운동학(Forward Kinematics), 유연 순응 제어(Compliance Control), 원주구속 제어 |
+| **Robot Control** | Doosan Robotics API (`DSR_ROBOT2`), DRL Script, TurtleBot 4, ROS 2 Humble, Nav2, 순운동학(Forward Kinematics), 유연 순응 제어(Compliance Control), 원주구속 제어, AMR Fleet 스케줄링 (동시 기동 제약), JIT 인터로킹 제어 |
 | **Vision & Space** | YOLOv8 Inference, Intel RealSense D435i, OpenCV, 다시점 3D 포인트 Cloud 병합(Point Cloud Stitching), 벡터 선형대수(Vector Cross Product) |
-| **Data & Twin** | Python, C++, Fast DDS Network Middleware, Firebase Realtime DB, Plotly.js 3D Telemetry Web Visualizer (Zero-Latency Streaming) |
+| **Data & Twin** | Python, C++, Fast DDS Network Middleware, PostgreSQL, Redis (ZSET Cache), WebSockets, FastAPI, Firebase Realtime DB, Plotly.js 3D Telemetry Web Visualizer (Zero-Latency Streaming) |
 
 ---
 
@@ -46,8 +69,15 @@
 - **전담 담당 업무:** YOLOv8 GPU 가속 실시간 객체(사람) 감시 노드 및 RGB-D 뎁스 매핑 결합, LiDAR TF(좌표계) 변환 조향 제어, Nav2 Action 강제 취소(Cancel) 및 캐싱된 목적지 재배포(Resume) 관제 통신부 설계
 - **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/Oraibot__AMR__Project-Click_to_View_Dashboard-0984e3?style=for-the-badge&logo=github&logoColor=white)](https://yjhyun0613.github.io/Oraibot/)
 
+<br>
+
+### 📌 4. NVIDIA Isaac Sim & ROS 2 Humble 기반 지능형 다중 로봇 물류창고 관제 시스템
+- **소속 인프라:** TEAM SKFC | NVIDIA Isaac Sim & ROS 2 Humble & PostgreSQL & Redis
+- **전담 담당 업무:** ROS 2 Humble 기반 관제 백엔드 스케줄러(MultiThreadedExecutor) 설계, A/B double buffering & Look-ahead 예비 작업대(3/7슬롯) 동적 호출 스케줄링, 143개 바닥 QR 격자망 생성 및 USD Instancing VRAM 최적화, AMR 액션 비동기 호출 타임아웃 예외 대응 DB 복구(Rollback) 트랜잭션 수립
+- **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/SkynetFC__Warehouse__Project-Click_to_View_Dashboard-00f5d4?style=for-the-badge&logo=server&logoColor=black)](https://yjhyun0613.github.io/cobot3_ws/)
+
 
 <div align="center">
   <p font-size="11px">본 깃허브 프로필 리드미의 모든 프로젝트 기술 명세는 Doosan M0609 협동로봇 및 ROS 2 생태계 기반 검증 코드를 기반으로 무결하게 작성되었습니다.</p>
 </div>
-
+```
