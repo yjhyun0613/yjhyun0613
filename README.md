@@ -52,8 +52,3 @@
 - **소속 인프라:** TEAM SKFC | NVIDIA Isaac Sim & ROS 2 Humble & PostgreSQL & Redis
 - **전담 담당 업무:** ROS 2 Humble 기반 관제 백엔드 스케줄러(MultiThreadedExecutor) 설계, A/B double buffering & Look-ahead 예비 작업대(3/7슬롯) 동적 호출 스케줄링, 143개 바닥 QR 격자망 생성 및 USD Instancing VRAM 최적화, AMR 액션 비동기 호출 타임아웃 예외 대응 DB 복구(Rollback) 트랜잭션 수립
 - **상세 포트폴리오 웹사이트:** [![상세 포트폴리오 대시보드 보기](https://img.shields.io/badge/SkynetFC__Warehouse__Project-Click_to_View_Dashboard-00f5d4?style=for-the-badge&logo=server&logoColor=black)](https://yjhyun0613.github.io/cobot3_ws/)
-
-
-<div align="center">
-  <p font-size="11px">본 깃허브 프로필 리드미의 모든 프로젝트 기술 명세는 Doosan M0609 협동로봇 및 ROS 2 생태계 기반 검증 코드를 기반으로 무결하게 작성되었습니다.</p>
-</div>
